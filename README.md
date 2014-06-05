@@ -30,8 +30,8 @@ various ppm image files: these files are either textures, terrain maps
 or depth/bump/gloss maps for the pebbles texture. Some of them are
 unused in the program but are included anyway.
 
-.vert = vertex shaders
-.frag = corresponding fragment shaders
+*.vert = vertex shaders
+*.frag = corresponding fragment shaders
 
 
 ===============================
