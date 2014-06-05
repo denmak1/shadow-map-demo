@@ -1,0 +1,4 @@
+# GLFW OpenGL windowing library
+CXXFLAGS += $(shell pkg-config --cflags glfw3)
+LDLIBS += $(shell pkg-config --static --libs glfw3)
+

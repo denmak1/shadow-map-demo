@@ -1,0 +1,21 @@
+OpenGL and GLUT demo, with a distant anscestry from the
+GeneratedGeometry XNA demo from creators.xna.com. By now, it doesn't
+look that much like the original, except the rocks and texture image
+files, now converted to ppm.
+
+pebbles files are public domain by Morgan McGuire, distributed with
+the G3D engine. These files were downsized from the original to
+512x512 and converted to ppm. Also, the original greyscale bumps file
+was converted to a normal map.
+
+assn3.cpp has the initialization and startup code, as well as the
+main drawing function, which calls drawTerrain from Terrain.cxx
+
+View.cpp handles window and view changes. 
+
+Input.cpp handles mouse motion and keyboard input. Both orbit the view
+around the center of the scene.
+
+Terrain.cpp loads and draws the terrain geometry.
+
+ImagePPM.cpp is simple ppm reader/writer

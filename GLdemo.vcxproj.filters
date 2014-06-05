@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLdemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Octahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mat.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MatPair.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Vec.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="terrain.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrain.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rocks.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrain.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pebbles.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pebbles-gloss.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pebbles-norm.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pebbles-bump.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrflat.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrainfb.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrainfb.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="marker.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="marker.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadowmap.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadowmap.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="blank.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scene1.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scene0.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scene2.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scene3.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scene4.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppContext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePPM.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatPair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Octahedron.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
