@@ -1,5 +1,5 @@
 ﻿Shadow Mapping Demo
-Dennis Makmak
+
 
 All development was done in Visual Studio 2012 and only tested on Windows.
 I don't have a Linux machine capable of OpenGL 3+, so I was unable to test it
